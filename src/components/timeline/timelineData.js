@@ -3,10 +3,10 @@ export const timelineData = [
     id: 1,
     timelineObj: {
       time: "July, 2021 - October, 2021",
-      title: "React Developer",
+      title: "React Developer Intern",
       organization: "Nav360 Fleet Management Solutions",
       description:
-        "Developed responsive webpages with clean UI using ReactJs and frontend frameworks like Bootstrap.",
+        "Developed a landing page with clean UI using ReactJs and Bootstrap.",
     },
   },
   {
@@ -15,7 +15,8 @@ export const timelineData = [
       time : "January, 2021 - August, 2021",
       title : "Deputy Editor-in-Chief",
       organization : "MIT Live",
-      description : "Played a key role in efficient running of the club."
+      description :
+       "Played a key role in efficient running of the club.",
     }
   },
   {
@@ -25,23 +26,23 @@ export const timelineData = [
       title: "Photographer",
       organization : "MIT Edboard",
       description : 
-      "Contributed to the yearbook by conducting faculty and class photoshoots.",
+      "Contributed to the yearbook by conducting faculty, class photoshoots.",
     },
   },
   {
     id: 4,
     timelineObj: {
-      time: "June, 2019",
+      time: "June, 2019 - Present",
       title: "Sinistral Lens",
       organization: "Started my own photography page.",
       description:
-        "I've been exploring, experimenting and learning ever since.",
+        "Exploring and experimenting ever since.",
     },
   },
   {
     id: 5,
     timelineObj: {
-      time: "July, 2018",
+      time: "July, 2018 - Present",
       title: "B.Tech in Information Technology",
       organization: "Manipal Institute of Technology",
       description: "current CGPA : 7.82",

@@ -16,6 +16,7 @@
   clip-path: polygon(93% 37%, 100% 50%, 93% 63%, 93% 100%, 0 100%, 0 0, 93% 0);
   padding: 2%;
   color: #fbfcf8;
+  margin-bottom: 20px;
 }
 /* .timeline-item:nth-of-type(odd){
   border-right: 2.75em solid white;
@@ -26,5 +27,28 @@
   align-items: flex-end;
   clip-path: polygon(7% 0, 100% 0, 100% 100%, 7% 100%, 7% 63%, 0 50%, 7% 37%);
   /* border-left: 43px solid white; */
+}
+
+@media screen and (max-width : 992px){
+  #timeline {
+    height: 200vh;
+  }
+  .timeline-item{
+    width: 60%;
+    padding: 2.5%;
+  }
+}
+@media screen  and (max-width : 768px){
+  .timeline-item{
+      width: 80%;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .timeline-item, .timeline-item:nth-of-type(even){
+    width: 100%;
+    align-items: center;
+    clip-path: none;
+  }
 }
 

@@ -15,7 +15,7 @@ const Navbarcomp = () => {
                   <Nav.Link href="#timeline">Timeline</Nav.Link>
                   <NavDropdown title="Projects" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="https://dadjokes-react.herokuapp.com/">Dad Jokes</NavDropdown.Item>
-                    <NavDropdown.Item href="https://nav360.in/stroll">Landing Page</NavDropdown.Item>
+                    <NavDropdown.Item href="https://nav360.in/stroll">Landing Page(for Nav360)</NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
                 <Nav>
