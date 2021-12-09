@@ -1,0 +1,20 @@
+#contact{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    /* color: white; */
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 6rem;
+}
+
+.icon:hover{
+    color: gray;
+    font-size: 7rem;
+    transition: ease-out;
+}

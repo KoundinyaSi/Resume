@@ -1,0 +1,95 @@
+#about {
+  display: flex;
+  height: 80vh;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  /* padding: 2%; */
+  overflow: hidden;
+}
+#propic,
+#camera {
+  height: 200px;
+  border-radius: 400px;
+  margin: 20px;
+}
+
+#about-eng {
+  display: flex;
+  background: linear-gradient(to bottom right, #ff9933 0%, #ff3300 100%);
+  align-items: center;
+  justify-content: center;
+  color: floralwhite;
+  clip-path: polygon(100% 50%, 0 0, 0 0, 0% 100%);
+  transition: clip-path 1s;
+}
+.hide {
+  display: none;
+}
+#about-eng:hover {
+  display: flex;
+  clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.25)), url("../../media/code.jpg");
+  background-repeat: no-repeat no-repeat;
+  color: floralwhite;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#about-eng:hover > #about-eng-text > .hide {
+  display: block;
+}
+
+#about-photo:hover > #about-photo-text > .hide {
+    display: block;
+  }
+#about-eng-text {
+  backdrop-filter: blur(5px);
+}
+
+#about-photo {
+  background: linear-gradient(to bottom left, #000066 0%, #66ffff 100%);
+  color: floralwhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  clip-path: polygon(100% 0, 0 50%, 100% 100%, 100% 100%);
+  transition: clip-path 1s;
+}
+
+#about-photo:hover {
+  display: flex;
+  clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.25)),
+    url("../../media/sunset.jpg");
+  /* background-repeat: no-repeat no-repeat; */
+  color: floralwhite;
+  background-size: cover;
+}
+
+@media screen and (max-width :1200px) {
+  #about{
+    font-size: 1em;
+  }
+  #about-eng{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  } 
+  #about-photo{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  }
+}
+@media screen and (max-width : 1025px) {
+  #about-eng, #about-photo{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width : 768px){
+  #propic, #camera{
+    height: 150px;
+  }
+  #about-eng-heading, #about-photo-heading{
+    font-size: 0.85em;
+  }
+}

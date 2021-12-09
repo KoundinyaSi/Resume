@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.16ab531d.chunk.css",
+    "main.js": "/static/js/main.15d70c98.chunk.js",
+    "main.js.map": "/static/js/main.15d70c98.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.60681c82.js",
+    "runtime-main.js.map": "/static/js/runtime-main.60681c82.js.map",
+    "static/css/2.f2512455.chunk.css": "/static/css/2.f2512455.chunk.css",
+    "static/js/2.62e96423.chunk.js": "/static/js/2.62e96423.chunk.js",
+    "static/js/2.62e96423.chunk.js.map": "/static/js/2.62e96423.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.16ab531d.chunk.css.map": "/static/css/main.16ab531d.chunk.css.map",
+    "static/js/2.62e96423.chunk.js.LICENSE.txt": "/static/js/2.62e96423.chunk.js.LICENSE.txt",
+    "static/media/about.css": "/static/media/sunset.1ee140bd.jpg",
+    "static/media/dadjokes.jpg": "/static/media/dadjokes.1b0fe26e.jpg",
+    "static/media/jumbotronComp.css": "/static/media/ic.04eac850.jpg",
+    "static/media/nav360.jpg": "/static/media/nav360.6aa0d896.jpg",
+    "static/media/propic-1.83822c72.jpg": "/static/media/propic-1.83822c72.jpg",
+    "static/media/propic.00514ad6.jpg": "/static/media/propic.00514ad6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60681c82.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.62e96423.chunk.js",
+    "static/css/main.16ab531d.chunk.css",
+    "static/js/main.15d70c98.chunk.js"
+  ]
+}

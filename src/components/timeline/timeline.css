@@ -1,0 +1,30 @@
+#timeline{
+  display: flex;
+  height: 225vh;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5%;
+}
+
+.timeline-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  background-color: black;
+  align-self: flex-start;
+  clip-path: polygon(93% 37%, 100% 50%, 93% 63%, 93% 100%, 0 100%, 0 0, 93% 0);
+  padding: 2%;
+  color: #fbfcf8;
+}
+/* .timeline-item:nth-of-type(odd){
+  border-right: 2.75em solid white;
+} */
+
+.timeline-item:nth-of-type(even){
+  align-self: flex-end;
+  align-items: flex-end;
+  clip-path: polygon(7% 0, 100% 0, 100% 100%, 7% 100%, 7% 63%, 0 50%, 7% 37%);
+  /* border-left: 43px solid white; */
+}
+
