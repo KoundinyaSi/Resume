@@ -1,6 +1,7 @@
 import React from "react";
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import { FaGithub } from "react-icons/fa";
 import './navbarStyle.css'; 
 
 const Navbarcomp = () => {
@@ -19,6 +20,9 @@ const Navbarcomp = () => {
                   </NavDropdown>
                 </Nav>
                 <Nav>
+                  <Nav.Link target="_blank" href="https://github.com/KoundinyaSi/Resume">
+                    Project Repo <FaGithub />
+                  </Nav.Link>
                     <Nav.Link href="#contact">
                       Contact me
                     </Nav.Link>
